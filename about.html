@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Alex Morgan — background, skills, and focus." />
+    <title>About — Alex Morgan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-logo" href="index.html">Alex Morgan</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <ul class="site-nav__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-head">
+        <div class="container">
+          <h1 class="page-head__title">About</h1>
+          <p class="page-head__intro">A short bio and the kinds of problems I like to work on.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container prose">
+          <p>
+            I’m a developer who enjoys turning fuzzy requirements into something concrete on the web. I’ve spent time on
+            front-of-the-stack UI, APIs, and the glue in between — whatever helps the team ship with confidence.
+          </p>
+          <p>
+            Outside of work I tinker with side projects, read about systems and design, and try to leave codebases a little
+            clearer than I found them.
+          </p>
+          <h2>Focus areas</h2>
+          <ul>
+            <li>Accessible, responsive interfaces</li>
+            <li>Performance and maintainability</li>
+            <li>Collaboration and documentation</li>
+          </ul>
+          <h2>Skills (sample)</h2>
+          <p>HTML, CSS, JavaScript, and whatever stack fits the project — replace this list with your real toolkit.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p class="site-footer__copy">&copy; <span id="year"></span> Alex Morgan. All rights reserved.</p>
+        <ul class="site-footer__links">
+          <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

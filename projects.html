@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Selected projects by Alex Morgan." />
+    <title>Projects — Alex Morgan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-logo" href="index.html">Alex Morgan</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <ul class="site-nav__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" aria-current="page">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-head">
+        <div class="container">
+          <h1 class="page-head__title">Projects</h1>
+          <p class="page-head__intro">A few things I’ve built or contributed to. Replace with your own work.</p>
+        </div>
+      </section>
+
+      <section class="section section--tight-top">
+        <div class="container">
+          <div class="project-grid">
+            <article class="project-card">
+              <h2 class="project-card__title">Portfolio site</h2>
+              <p class="project-card__summary">A fast, static personal site with no build step — easy to host anywhere.</p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="index.html">Live</a>
+                <span class="project-card__sep" aria-hidden="true">·</span>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Repository</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h2 class="project-card__title">Dashboard prototype</h2>
+              <p class="project-card__summary">Exploration of charts and filters for an internal analytics view.</p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>APIs</li>
+              </ul>
+              <div class="project-card__links">
+                <span class="is-muted">Demo coming soon</span>
+                <span class="project-card__sep" aria-hidden="true">·</span>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Repository</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h2 class="project-card__title">CLI helper</h2>
+              <p class="project-card__summary">Small command-line tool to scaffold repeatable project folders.</p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>Node</li>
+                <li>CLI</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Repository</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p class="site-footer__copy">&copy; <span id="year"></span> Alex Morgan. All rights reserved.</p>
+        <ul class="site-footer__links">
+          <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

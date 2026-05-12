@@ -1,6 +1,6 @@
 # Portfolio (static MVP)
 
-Plain HTML, CSS, and JavaScript — no build step. Replace placeholder name, copy, project cards, email, and social URLs in the HTML files.
+Plain HTML, CSS, and JavaScript — no build step. Update email, social URLs, and your **WebNovel book page URL** (search for `https://www.webnovel.com/` in `index.html` and `projects.html`) so the “Read on WebNovel” links go straight to your novel.
 
 ## Local preview
 
